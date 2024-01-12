@@ -44,6 +44,20 @@
         height: 100%;
         width: 50%;
 
+        float: right;
+    }
+
+    #formulario{
+        width: 50%;
+
         float: left;
+    }
+
+    #formulario>h1{
+        font-size: 2em;
+    }
+
+    #formulario>p{
+        font-size: 1.0em;
     }
 }
