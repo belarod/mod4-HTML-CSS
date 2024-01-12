@@ -13,22 +13,28 @@
         background-image: linear-gradient(to top, var(--cor3), var(--cor5));
     }
 
-    #login{
+    section#login{
         width: 80vw;
+        height: 280px;
     }
 
-    #imagem{
+    section#login>div#imagem{
         height: 100%;
         width: 30%;
 
         float: left;
     }
 
-    #formulario{
+    section#login>div#formulario{
         width: 70%;
 
         float: right;
     }
+
+    /*.campo input{
+        width: 380px;
+        transform: translate(7px, -9px);
+    }*/
 }
 
 @media screen and (min-width: 992px) {
@@ -36,18 +42,19 @@
         background-image: linear-gradient(to top, var(--cor3), var(--cor5));
     }
 
-    #login{
+    section#login{
         width: 950px;
+        height: 350px;
     }
 
-    #imagem{
+    section#login>div#imagem{
         height: 100%;
         width: 50%;
 
         float: right;
     }
 
-    #formulario{
+    section#login>div#formulario{
         width: 50%;
 
         float: left;
@@ -58,6 +65,8 @@
     }
 
     #formulario>p{
-        font-size: 1.0em;
+        font-size: 1em;
+
+        margin: 10px 0px;
     }
 }
