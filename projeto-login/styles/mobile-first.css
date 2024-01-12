@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/*Paleta de cores:
+#260801 - Marrom escuro//
+#8C704F - Bege//
+#F2E6D0 - Bege claro
+#BFA521 - Verde musgo
+#9FBFBF - Azul pastel
+*/
+
+:root{
+    --cor1:#260801
+    --cor2:#8C704F
+    --cor3:#F2E6D0
+    --cor4:#BFA521
+    --cor5:#9FBFBF
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
